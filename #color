@@ -1,0 +1,42 @@
+#color
+color white
+
+#Nucleosome
+color /c,g #FFFF00
+color /d,h #FF0000	
+color /a,e,x #1E90FF	
+color /b,f #7FFF00	
+color /N,T #ADD8E6
+
+
+#RPD3S--These are the colors used for when domains have different colors
+
+color /A:661-727 #BA55D3
+color /A:747-927 #8B008B
+color /A:928-1141 #DDA0DD
+color /A:1142-1191 #9400D3
+color /A:1192-1536 #663399
+color /G:416-470	#B8860B
+color /G:272-312 #FFD700
+color /G:312-374 #F0E68C
+
+#Sin3--These are the colors used when each subunit only has one color
+color /A #c200fb
+#Rpd3
+color /B #ec7d10
+#Ume1
+color /C #03b94e
+#Eaf3
+color /D #ec0868
+#Eaf3
+color /E #f25295
+#Rco1
+color /F #ffbc0a
+#Rco1
+color /G,H #ffd254
+
+
+
+#style
+
+lighting soft; lighting shadows false; graphics silhouettes color black width 3 depthJump 0.03; graphics silhouettes true; graphics bgColor white; cartoon style nucleic xsect oval width 4 thick 4; cartoon style protein width 2.5 thick .8; show cartoons; hide atoms; lighting msDepth 0.005 multishadow 512; dss; windowsize 720 720; 
